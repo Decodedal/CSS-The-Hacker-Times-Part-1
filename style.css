@@ -2,6 +2,7 @@
 
 body{
     background-color: #eeeeee;
+    font-family: Source Sans Pro;
 }
 .newspaper-container{
     margin: auto;
@@ -10,6 +11,7 @@ body{
     box-shadow: 3px 20px 50px #ddd;
     border-radius: 2em;
     padding: 3em;
+    position: relative;
   
 }
 
@@ -39,6 +41,49 @@ nav{
 a:hover{
     color: blue;
 }
-main>img{
-    text-align: center;
+#comp{
+    display: block;
+    width: 700px;
+}
+
+main{
+    border-bottom: 2px dotted gray;
+}
+
+#code{
+    width: 350px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#coffee{
+    width: 350px;
+    display: inline-block;
+    position: absolute;
+    padding: auto;
+    margin: 5px;
+}
+
+.more-articles p{
+    text-align: justify;
+    width: 290px;
+}
+
+main p{
+    text-align: justify;
+    width: 680px;
+    position: relative;
+    left: .4em;
+}
+main h5{
+    color: red;
+    margin-top: 3px;
+}
+main h2{
+    margin-bottom: 3px;
+}
+nav{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0%;
 }
